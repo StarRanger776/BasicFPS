@@ -6,6 +6,6 @@ public class Destroyable : MonoBehaviour, IDamage
 {
     public void TakeDamage()
     {
-        Destroy(this);
+        Destroy(gameObject);
     }
 }
